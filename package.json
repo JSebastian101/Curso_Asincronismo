@@ -1,0 +1,32 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "Ejercicio practico de asincronismo con JS",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "promise": "node src/Promise/index.js",
+    "promise:challenge": "node src/Promise/challenge.js",
+    "async": "node src/async/index.js",
+    "async:challenge": "node src/async/challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JSebastian101/Curso_Asincronismo.git"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSebastian101/Curso_Asincronismo/issues"
+  },
+  "homepage": "https://github.com/JSebastian101/Curso_Asincronismo#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
